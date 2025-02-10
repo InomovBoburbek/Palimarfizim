@@ -8,7 +8,7 @@ class Weapon:
 
 class Pistol(Weapon):
     def use(self):
-        print("🔫 Pistolet bilan o‘q otmoqdasiz!")
+        print(" Pistolet bilan o‘q otmoqdasiz!")
 
 
 class Granad(Weapon):
@@ -41,17 +41,17 @@ class Animal:
 
 class Dog(Animal):
     def sound(self):
-        print("🐶 Vov - Vov")
+        print(" Vov - Vov")
 
 
 class Cat(Animal):
     def sound(self):
-        print("🐱 Miyov - Miyov")
+        print(" Miyov - Miyov")
 
 
 class Cow(Animal):
     def sound(self):
-        print("🐄 Mo‘ - Mo‘")
+        print(" Mo‘ - Mo‘")
 
 
 d = Dog("Rex")
@@ -80,17 +80,17 @@ class Vehicle:
 
 class Car(Vehicle):
     def sound(self):
-        print("🚗 Vrum - Vrum")
+        print(" Vrum - Vrum")
 
 
 class Motorcycle(Vehicle):
     def sound(self):
-        print("🏍️ Brum - Brum")
+        print(" Brum - Brum")
 
 
 class Truck(Vehicle):
     def sound(self):
-        print("🚛 Honk - Honk")
+        print(" Honk - Honk")
 
 
 c = Car("BMW")
@@ -121,17 +121,17 @@ class Clothing:
 
 class Shirt(Clothing):
     def wear(self):
-        print("👕 Ko‘ylak kiyildi!")
+        print(" Ko‘ylak kiyildi!")
 
 
 class Pants(Clothing):
     def wear(self):
-        print("👖 Shim kiyildi!")
+        print(" Shim kiyildi!")
 
 
 class Jacket(Clothing):
     def wear(self):
-        print("🧥 Kurtka kiyildi!")
+        print(" Kurtka kiyildi!")
 
 
 s = Shirt("T-shirt")
