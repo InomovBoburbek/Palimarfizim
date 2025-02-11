@@ -23,4 +23,10 @@
 
 
 
-lst = [1, 2, 5, 9, 20, 70, -8 ]
+# lst = [1, 2, 3, 4, 5, 6, 7, 8, 80, -2]
+# largest = 0
+#
+# for i in range(len(lst)):
+#     if lst[i] > lst[i - 1]:
+#         largest = lst[i]
+# print(largest)
